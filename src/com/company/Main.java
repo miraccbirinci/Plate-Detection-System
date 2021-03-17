@@ -51,7 +51,7 @@ public class Main {
                         int r = color.getRed();
                         int g = color.getGreen();
                         int b = color.getBlue();
-                        int colorValue = (int) ((0.3 * r) + (0.59 * g) + (0.11 * b));   // CONVERT RGB TO GRAY SCALE YAZARAK STACKOVER FLOWDAN BU FORMULU BULDUM Bu kisim alinti hocam 
+                        int colorValue = (int) ((0.3 * r) + (0.59 * g) + (0.11 * b));   
                                                                                        // tip 2yse griye ceviriyoruz tip 3 se rgb degerleri yazdiriyoruz
                         writer.write(colorValue + " ");
                     }
